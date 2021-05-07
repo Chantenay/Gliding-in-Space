@@ -1,0 +1,298 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV PURE_BARRIERS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_PROTECTED_TYPES
+RV NO_SELECT_STATEMENTS
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=1
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U swarm_control_concurrent_generic%b  swarm_control_concurrent_generic.adb  91068ae8 DE NE OO PK GE
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W exceptions%s		exceptions.adb		exceptions.ali
+W swarm_control%s	swarm_control.adb	swarm_control.ali
+W swarm_data%s		swarm_data.ads		swarm_data.ali
+W swarm_structures%s	swarm_structures.adb	swarm_structures.ali
+W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
+
+U swarm_control_concurrent_generic%s  swarm_control_concurrent_generic.ads  7d3a30dd BN DE EE NE OO PK GE
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-calend.ads		20180524051736 372815c8 ada.calendar%s
+D a-charac.ads		20180524051735 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051735 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20180524051734 61e5e089 ada.containers%s
+D a-cohata.ads		20180524051736 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20180524051735 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20180524051735 20298884 ada.containers.helpers%s
+D a-convec.ads		20180524051736 7e2b0fdf ada.containers.vectors%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051736 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20180524051735 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20180524051735 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20180524051736 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20180524051736 0240fc73 ada.real_time%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-ststio.ads		20180524051735 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20180524051735 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051735 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051736 8098c91f ada.strings.unbounded%s
+D a-stunha.ads		20180524051735 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-taside.ads		20180524051737 c3e0cda8 ada.task_identification%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051734 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20180524051735 eff36322 ada.unchecked_deallocation%s
+D barrier_type.ads	20130924033142 7bea4b20 barrier_type%s
+D exceptions.ads	20130917215000 93f8a807 exceptions%s
+D generic_protected.ads	20130915151338 3536765d generic_protected%s
+D generic_realtime_buffer.ads  20130912081846 a4c755fe generic_realtime_buffer%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D graphics_configuration.ads  20130915031142 fc788553 graphics_configuration%s
+D graphics_framerates.ads  20130922091222 2cebd15a graphics_framerates%s
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-c.ads		20180524051734 5421119b interfaces.c%s
+D i-cpoint.ads		20180524051736 ee8a93ec interfaces.c.pointers%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D quaternions.ads	20130922091012 9d9d58c2 quaternions%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D swarm_configuration.ads  20200930123526 b5fc8151 swarm_configuration%s
+D swarm_configurations.ads  20190902013422 517ea45d swarm_configurations%s
+D swarm_control.ads	20130924092732 2697fa7c swarm_control%s
+D swarm_control_concurrent_generic.ads  20130916013610 7d3a30dd swarm_control_concurrent_generic%s
+D swarm_control_concurrent_generic.adb  20191003041244 274f3598 swarm_control_concurrent_generic%b
+D swarm_data.ads	20190902013422 2e78ed2c swarm_data%s
+D swarm_structures.ads	20130924092452 faad3089 swarm_structures%s
+D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-atacco.ads		20180524051736 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20180524051736 b45c2d8d system.atomic_counters%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-fatflt.ads		20180524051735 11beb392 system.fat_flt%s
+D s-fatgen.ads		20180524051736 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20180524051735 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-finmas.ads		20180524051736 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051736 4ff27390 system.finalization_root%s
+D s-multip.ads		20180524051734 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20180524130237 089051b2 system.os_constants%s
+D s-osinte.ads		20180524051737 01b3ad47 system.os_interface%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-pooglo.ads		20180524051734 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051735 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524051735 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180524051734 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180524051734 aedef97e system.stream_attributes%s
+D s-string.ads		20180524051736 8fe54fb7 system.strings%s
+D s-ststop.ads		20180524051734 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20180524051737 801abd01 system.task_info%s
+D s-taspri.ads		20180524051736 f40ac08d system.task_primitives%s
+D s-taprop.ads		20180524051736 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051737 1d8c1ccb system.tasking%s
+D s-taprob.ads		20180524051736 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20180524051737 60ad3dae system.tasking.protected_objects.entries%s
+D s-tassta.ads		20180524051737 cca55c94 system.tasking.stages%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20190922083314 d15dcc29 vectors_2d_n%s
+D vectors_3d.ads	20190922082522 d93f5008 vectors_3d%s
+D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
+D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
+D vehicle_message_type.ads  20200929085644 c08a8034 vehicle_message_type%s
+D vehicle_task_type.ads	20160828063224 9ebc7351 vehicle_task_type%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 5 a-contai.ads
+20I9*Count_Type<integer>
+X 7 a-cohama.ads
+96R9*Map<11|43R9>
+X 9 a-convec.ads
+78I12*Extended_Index{integer}
+88R9*Vector<11|43R9>
+165V13*Length{5|20I9} 60|88s80[62|110]
+512V13*First_Index{integer} 60|86s59[62|110]
+522V13*Last_Index{78I12[62|110]} 60|87s59[62|110]
+X 13 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[9|111]>
+X 30 exceptions.ads
+17K10*Exceptions 22e15 60|5w6 5r33
+19U14*Show_Exception 60|74s26
+X 35 gl-buffer-general.ads
+14R9 base_Object<34|20R9>
+X 58 swarm_control.ads
+13K9*Swarm_Control 68e18 60|6w6 6r33
+54U14*Set_Acceleration 60|60s45
+57U14*Forward_Messages 60|61s45
+60U14*Move_Element 60|62s45
+63U14*Update_Rotation 60|63s45
+X 59 swarm_control_concurrent_generic.ads
+7i4 No_Of_CPU_Cores{positive} 60|25r31 41r26 89r92
+9k9*Swarm_Control_Concurrent_Generic 7z4 15l5 15e37 60|11b14 121l5 121t37
+11E9*Job_Type 11e99 13r37 60|36r28 47r23 53r35 82r37
+11n22*Set_Accelerations{11E9} 60|60r24
+11n41*Forward_Messages{11E9} 60|61r24
+11n59*Move_Elements{11E9} 60|62r24
+11n74*Update_Rotations{11E9} 60|63r24
+11n92*No_Job{11E9} 60|64r24 100r46 112r45
+13U14*Distribute_Jobs 13>31 60|82b14 117l8 117t23
+13e31 Job{11E9} 60|82b31 98r46 110r45
+X 60 swarm_control_concurrent_generic.adb
+15w14 Synchroniser 23b19 29l8 29t20 67r13 116r7
+16Y13 All_Jobs_Done 24b13 25r9 27r31 28l11 28t24 67s26 116s20
+18b7 Synchroniser_Open{boolean} 25r59 27m10
+35T14 Worker 37l8 37e14 41r46 45b14 76l8 76t14
+36Y13 Set_Job 36>22 36>38 36>51 53b20 57l17 57t24 98s37 100s37 110s36 112s36
+36e22 Job{59|11E9} 54r31
+36i38 Start_Index{63|19I12} 55r31
+36i51 End_Index{63|19I12} 56r31
+41a4 Workers(35T14) 92r25 92r42 94r88 95r88 98r16 100r16 106r71 106r87 110r13
+. 110r22 112r13 112r22
+47e7 Current_Job{59|11E9} 54m16 59r21
+48i7 Start{63|19I12} 55m16 58r34
+48i14 Finish{63|19I12} 56m16 58r43
+53e29 Job{59|11E9}
+53i45 Start_Index{63|19I12}
+53i58 End_Index{63|19I12}
+58i17 Element_Index{integer} 60r63 61r63 62r63 63r63
+74r12 E{10|63R9} 74r42
+86i7 First_Element_Ix{63|19I12} 94r129 95r129 97r27 106r129 109r24
+87i7 Last_Element_Ix{63|19I12} 97r62 107r40 109r59
+88i7 No_Of_Elements{63|19I12} 89r75
+89i7 Elements_Per_Task{63|19I12} 94r109 95r109 106r109
+92i11 Task_Index{integer} 94r74 95r74 98r25 100r25
+94i13 From_Ix{integer} 97r16 98r51 100r54
+95i13 To_Ix{integer} 97r53 98r60 100r63
+106i10 From_Ix{integer} 109r13 110r50 112r53
+107i10 To_Ix{integer} 109r50 110r59 112r62
+X 61 swarm_data.ads
+10K9*Swarm_Data 60|7w6 7r33 61|21e15
+17r4*Swarm_State{9|88R9[62|110]} 60|86r72 87r72 88r88
+X 62 swarm_structures.ads
+19K9*Swarm_Structures 60|8w6 84r11 62|124e21
+35V14*"<"{boolean} 9|628i22
+110K12*Swarm_Vectors[9|73] 60|84r28
+X 63 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 60|9w6 9r33 63|49e26
+19I12*Swarm_Element_Index{positive} 60|36r63 48r23 53r70 86r36 87r36 88r36
+. 88r59 89r36 94r43 95r43 106r40
+X 83 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

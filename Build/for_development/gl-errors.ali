@@ -1,0 +1,191 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U gl.errors%b		gl-errors.adb		9c2abfb0 DE NE OO PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.unchecked_conversion%s
+W gl%s			gl.adb			gl.ali
+W glu%s			glu.adb			glu.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+U gl.errors%s		gl-errors.ads		51391c66 DE EE OO PK IU
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W gl%s			gl.adb			gl.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl.adb		20130917070202 c6fe6214 gl%b
+D gl-errors.ads		20130914013700 79dca854 gl.errors%s
+D gl-errors.adb		20130915151344 879c2469 gl.errors%b
+D gl-extended.ads	20130914141106 7be628b8 gl.extended%s
+D glu.ads		20130915152632 d0f1aa67 glu%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-c.ads		20180524051734 5421119b interfaces.c%s
+D i-cstrin.ads		20180524051735 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-atacco.ads		20180524051736 4c36d12f system.address_to_access_conversions%s
+D s-conca3.ads		20180524051736 0b705ca5 system.concat_3%s
+D s-conca4.ads		20180524051736 7e642b20 system.concat_4%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-fatgen.ads		20180524051736 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20180524051735 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|11r6 11r36 12r6 20r36
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|11w10 11r40
+263U14*Put_Line 11|33s27 34s27 49s27 50s27
+X 7 a-unccon.ads
+20v14*Unchecked_Conversion 11|12w10 20r40
+X 8 gl.ads
+66K9*GL 4501e7 10|11r9 33r5 11|16r14 20r62 23r53 55r5
+122M9*Ubyte<15|47M9>
+140P9*ubytePtr(122M9) 11|20r65
+1242V13*Get_Error{1220E9} 11|23s56
+X 10 gl-errors.ads
+11K12*Errors 8|66k9 10|33l8 33e14 11|16b17 55l8 55t14
+13X4*openGL_Error 11|37r16
+15V13*Current{string} 11|18b13 24l8 24t15 28s45 43s46
+21U14*log 21>19 11|26b14 39l8 39t11
+21a19 Prefix{string} 11|26b19 32r15 34r37
+27U14*log 27>19 27<44 11|41b14 53l8 53t11
+27a19 Prefix{string} 11|41b19 48r15 50r37
+27b44 error_Occurred{boolean} 11|41b42 46m7 47r10
+X 11 gl-errors.adb
+20V16 to_chars_ptr[7|20]{16|47P9} 23s21
+28a7 Current_GL_Error{string} 31r10 33r58 34r58
+43a7 Current_GL_Error{string} 46r25 49r58 50r58
+X 13 glu.ads
+48K9*GLU 11|13w6 23r35 13|738e8
+114V13*Error_String{8|140P9} 11|23s39
+X 14 interfac.ads
+38K9*Interfaces 11|14r6 14r36 14|184e15
+X 15 i-c.ads
+18K20*C 11|14r17 14r47 15|230e17
+47M9*unsigned_char
+X 16 i-cstrin.ads
+36K22*Strings 11|14w19 14r49 16|106e25
+47P9*chars_ptr 11|20r75
+74V13*Value{string} 11|23s14
+

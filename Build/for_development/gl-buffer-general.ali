@@ -1,0 +1,299 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTIONS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U gl.buffer.general%b	gl-buffer-general.adb	831564e9 DE NE OO PK GE IU
+W gl%s			gl.adb			gl.ali
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W gl.errors%s		gl-errors.adb		gl-errors.ali
+
+U gl.buffer.general%s	gl-buffer-general.ads	b07eab0a BN DE EB NE OO PK GE IU
+W ada%s			ada.ads			ada.ali
+Z ada.unchecked_conversion%s
+W gl.buffer%s		gl-buffer.adb		gl-buffer.ali
+W interfaces%s		interfac.ads		interfac.ali
+W interfaces.c%s	i-c.adb			i-c.ali
+W interfaces.c.pointers%s
+Z interfaces.c.strings%s  i-cstrin.adb		i-cstrin.ali
+W system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-general.adb	20191003041116 702f27f9 gl.buffer.general%b
+D gl-errors.ads		20130914013700 79dca854 gl.errors%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-c.ads		20180524051734 5421119b interfaces.c%s
+D i-cpoint.ads		20180524051736 ee8a93ec interfaces.c.pointers%s
+D i-cpoint.adb		20180524051736 d5172521 interfaces.c.pointers%b
+D i-cstrin.ads		20180524051735 341d0ddf interfaces.c.strings%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-atacco.ads		20180524051736 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-stratt.ads		20180524051734 aedef97e system.stream_attributes%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 9|22r39 23r39
+X 5 a-unccon.ads
+20v14*Unchecked_Conversion 9|22r43 23r43
+X 6 gl.ads
+66K9*GL 4501e7 8|14r28 20r9 85r24 95r5 9|11r6 18r14 22r91 23r65 30r16 39r7
+. 49r16 56r7 56r63 59r7 141r86 143r16 169r85 171r16 207r85 209r16 240r5
+118M9*GL_Boolean<12|47M9> 9|79r26
+122M9*Ubyte<12|47M9>
+147I12*sizeiPtr{12|56I9} 9|30r19 49r19
+148I12*intPtr{12|56I9} 9|56r66
+150P9*pointer(122M9) 9|22r94 23r68
+181m4*GL_True{118M9} 9|82r20
+3783E9*VBO_Target 3789e7 8|85r27
+3801E9*VBO_Usage 3812e7 8|26r63 9|28r65
+3826U14*Buffer_Data 9|39s10
+3831U14*BufferSubData 9|56s10
+3832i29 offset{148I12} 9|56r53
+3833i29 size{147I12} 9|57r25
+3834p29 data{150P9} 9|58r25
+3838n7*READ_ONLY{3836E9} 9|141r89
+3839n7*WRITE_ONLY{3836E9} 9|169r88
+3840n7*READ_WRITE{3836E9} 9|207r88
+3849V13*MapBuffer{150P9} 9|141s43 169s43 207s43
+3852V13*UnmapBuffer{118M9} 9|79s40
+X 7 gl-buffer.ads
+14K12*Buffer 6|66k9 7|66e14 8|14r31 20r12 95r8 9|18r17 143r19 171r19 209r19
+. 240r8
+20H9*Object 52e17 8|14r38
+22U14*Enable 9|38s7 55s7 139s7 167s7 205s7
+25y13*Extract_VBO_Target{6|3783E9} 9|39s23 56s25 141s54 147s29 169s54 175s29
+. 207s54 213s29
+42X4*no_platform_Support 9|143r26 171r26 209r26
+51i10*Length{positive} 9|36m18 67r84 146r45 174r45 212r45
+64U14 Verify_Name 9|35s7
+X 8 gl-buffer-general.ads
+14R9 base_Object<7|20R9> 7|25p13 8|24r31 75r31
+16M9 Index 18r33 53r56 54r56 60r57 61r57 67r57 68r57 70r57 71r57 80r59 88r18
+. 9|67r62 87r52 98r33 110r41 121r34 146r29 152r55 155r33 174r29 181r41 189r34
+. 212r29 218r56 221r34 225r41 233r34
+17+9 Element 18r60 53r70 60r76 61r76 67r71 70r76 71r76 77r25 80r66 9|87r66
+. 111r41 122r34 124r28 152r69 182r41 190r34 218r70 226r41 234r34
+18A9 Element_Array(17+9)<16M9> 26r39 30r41 31r56 54r88 68r89 80r75 9|28r39
+. 47r42 51r38 62r55 67r31 99r50 156r50 222r51
+20k19*general 7|14k12 8|14z9 16z9 17z9 18z9 75E9 95l15 95e22 9|18b24 240l15
+. 240t22
+24R9*General_Object<14R9> 7|25p13 8|26p14 26r81 28p14 28r41 31p14 31r33 51p14
+. 51r34 58p14 58r33 65p14 65r34 75c9 75e59 9|28r83 32r21 45r42 62r32 132r32
+. 160r32 198r33
+26V14*To_Buffer{24R9} 26^25 26>54 9|28b13 43l8 43t17
+26p25 From(18A9) 9|28b24 36r28 39r57 40r38 40r48
+26e54 Usage{6|3801E9} 9|28b56 41r23
+28U14*Set 28=19 29>19 30>19 9|45b14 60l8 60t11
+28r19 Self{24R9} 9|45b19 55r15 56r45
+29i19 Set_Position{positive} 9|46b19 56r75
+30*19 To{18A9} 9|47b19 51r55 52r66 52r70
+31V14*Get{18A9} 31^19 9|62b13 72l8 72t11
+31p19 Self(24R9) 9|62b18 66r55 67r75
+36H9*memory_Map 38p14 38r30 49r31 56r31 63r31 83c9 89e17 91r31 92r31 93r31
+. 9|77r30 87r25 97r33 109r41 120r34 152r86 156r73 185r12 193r12 218r87 222r74
+. 229r12 237r12
+38U14*Release 38>23 9|70R7 77b14 85l8 85t15
+38r23 Self{36R9} 9|77b23 79r53
+47X4*Corrupt_Buffer 9|83r16
+49R9*read_only_Map<36R9> 38p14 51r57 53p14 53r26 54p14 54r26 91c9 91e58 9|66r22
+. 132r55 136r18 152r25 154r33
+51V14*Map{49C9} 51^19 9|66s50 132b13 150l8 150t11
+51p19 Self(24R9) 9|132b18 139r15 141r74 146r36 147r49
+53V14*Get{17+9} 53>19 53>41 9|152b13
+53r19 Self{49R9} 9|152r98
+53*41 Get_Position{16M9} 9|152r105
+54V14*Get{18A9} 54>19 54>41 54>63 9|67R48 154b13
+54r19 Self{49R9} 9|156r85
+54*41 Get_Position{16M9} 9|156r92
+54i63 Count{positive} 9|156r106
+56R9*write_only_Map<36R9> 38p14 58r56 60p14 60r26 61p14 61r26 92c9 92e58
+. 9|160r55 164r18 180r41 188r34
+58V14*Map{56C9} 58^19 9|160b13 178l8 178t11
+58p19 Self(24R9) 9|160b18 167r15 169r74 174r36 175r49
+60U14*Set 60>19 60>42 60^64 9|180b14 186l8 186t11
+60r19 Self{56R9} 9|180b19 185r24
+60*42 Set_Position{16M9} 9|181b19 185r31
+60p64 To(17+9) 9|182b19 185r45
+61U14*Set 61>19 61>42 61>64 9|188b14 194l8 194t11
+61r19 Self{56R9} 9|188b19 193r24
+61*42 Set_Position{16M9} 9|189b19 193r31
+61*64 To{17+9} 9|190b19 193r45
+63R9*read_write_Map<36R9> 38p14 65r57 67p14 67r26 68p14 68r26 70p14 70r26
+. 71p14 71r26 93c9 93e58 9|198r56 202r18 218r25 220r34 224r41 232r34
+65V14*Map{63C9} 65^19 9|198b13 216l8 216t11
+65p19 Self(24R9) 9|198b18 205r15 207r74 212r36 213r49
+67V14*Get{17+9} 67>19 67>42 9|218b13
+67r19 Self{63R9} 9|218r99
+67*42 Get_Position{16M9} 9|218r106
+68V14*Get{18A9} 68>19 68>42 68>64 9|220b13
+68r19 Self{63R9} 9|222r86
+68*42 Get_Position{16M9} 9|222r93
+68i64 Count{positive} 9|222r107
+70U14*Set 70>19 70>42 70^64 9|224b14 230l8 230t11
+70r19 Self{63R9} 9|224b19 229r24
+70*42 Set_Position{16M9} 9|225b19 229r31
+70p64 To(17+9) 9|226b19 229r45
+71U14*Set 71>19 71>42 71>64 9|232b14 238l8 238t11
+71r19 Self{63R9} 9|232b19 237r24
+71*42 Set_Position{16M9} 9|233b19 237r31
+71*64 To{17+9} 9|234b19 237r45
+77*4 default_Terminator{17+9} 80r90
+80K12 Element_Pointers[13|44] 87r18 9|20r8 22r65 23r91 91r24 103r25 117r19
+85e10 vbo_Target{6|3783E9} 9|79r58 147m15 175m15 213m15
+87p10 Data{13|47P9[80]} 9|91r57 103r58 117r56 141m15 142r18 169m15 170r18
+. 207m15 208r18
+88*10 Last{16M9} 9|146m15 174m15 212m15
+X 9 gl-buffer-general.adb
+22V13 to_gl_Pointer[5|20]{6|150P9} 40s23 58s35
+23V13 to_element_Pointer[5|20]{13|47P9[8|80]} 141s23 169s23 207s23
+32r7 new_Buffer{8|24R9} 35m20 35r20 36m7 38r15 39r43 42r14
+51*7 new_Vertices{8|18A9} 57r35 58m50 58r50 58r64
+52i7 Vertex_Size_in_bits{natural} 56r95
+66c7 the_Map<8|49R9> 67r53 70r16
+67*7 the_Vertices{8|18A9} 71r14
+79m7 Status{6|118M9} 82r10
+87V13 Get{8|17+9} 87b13 87>18 87>37 95l8 95t11 152s81 218s82
+87r18 Self{8|36R9} 91r52
+87*37 Get_Position{8|16M9} 91r75
+91p7 Start{13|47P9[8|80]} 94r21
+97V13 Get{8|18A9} 97b13 97>18 98>18 99>18 107l8 107t11 156s68 222s69
+97r18 Self{8|36R9} 103r53
+98*18 Get_Position{8|16M9} 103r76
+99i18 Count{positive} 106r39
+103p7 Start{13|47P9[8|80]} 106r21
+109U14 Set 109b14 109>19 110>19 111^19 118l8 118t11 127s7 185s7 229s7
+109r19 Self{8|36R9} 117r51
+110*19 Set_Position{8|16M9} 117r74
+111p19 To(8|17+9) 117r45 127r32
+120U14 Set 120b14 120>19 121>19 122>19 128l8 128t11 193s7 237s7
+120r19 Self{8|36R9} 127r12
+121*19 Set_Position{8|16M9} 127r18
+122*19 To{8|17+9} 124r39
+124*7 the_Vertex{8|17+9} 127m38 127r38
+136r7 the_Map{8|49R9} 141m7 142r10 146m7 147m7 149r14
+164r7 the_Map{8|56R9} 169m7 170r10 174m7 175m7 177r14
+202r7 the_Map{8|63R9} 207m7 208r10 212m7 213m7 215r14
+X 10 gl-errors.ads
+11K12*Errors 9|11w9 59r10 10|33e14
+21U14*log 9|59s17
+X 11 interfac.ads
+38K9*Interfaces 8|11r6 80r36 9|89r11 101r11 114r11 11|184e15
+X 12 i-c.ads
+18K20*C 8|11r17 80r47 9|89r22 101r22 114r22 12|230e17
+47M9*unsigned_char
+56I9*ptrdiff_t<long_integer> 9|91r64 103r65 106r28 117r63
+X 13 i-cpoint.ads
+44k22*Pointers 8|11w19 80r49 13|102e26
+47P9 Pointer(8|17+9) 8|87r35[80] 9|22r82[8|80] 23r108[8|80] 91r41[8|80] 103r42[8|80]
+. 117r36[8|80]
+58V13 Value{8|18A9} 9|94s14[8|80] 106s14[8|80]
+68V14 "+"{47P9[8|80]} 9|91s62[8|80] 103s63[8|80] 117s61[8|80]
+91U14 Copy_Array 9|117s7[8|80]
+

@@ -1,0 +1,708 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV SIMPLE_BARRIERS
+RV PURE_BARRIERS
+RV NO_ENTRY_CALLS_IN_ELABORATION_CODE
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_HEAP_ALLOCATIONS
+RV NO_IMPLICIT_TASK_ALLOCATIONS
+RV NO_PROTECTED_TYPES
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_TERMINATE_ALTERNATIVES
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_PROTECTED_ENTRIES=1
+RV MAX_SELECT_ALTERNATIVES=2
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U callback_procedures%b	callback_procedures.adb	f5c21d32 DE OO PK
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W exceptions%s		exceptions.adb		exceptions.ali  EA
+W generic_sliding_statistics%s  generic_sliding_statistics.adb  generic_sliding_statistics.ali  EA
+W graphics_configuration%s  graphics_configuration.ads  graphics_configuration.ali
+W graphics_data%s	graphics_data.ads	graphics_data.ali
+W graphics_framerates%s	graphics_framerates.adb	graphics_framerates.ali
+W graphics_opengl%s	graphics_opengl.adb	graphics_opengl.ali
+W graphics_structures%s	graphics_structures.ads	graphics_structures.ali
+Z interfaces%s		interfac.ads		interfac.ali
+W keyboard%s		keyboard.adb		keyboard.ali
+W models%s		models.adb		models.ali
+W real_type%s		real_type.ads		real_type.ali
+W rotations%s		rotations.adb		rotations.ali
+W screenshots%s		screenshots.adb		screenshots.ali
+W swarm_configuration%s	swarm_configuration.adb	swarm_configuration.ali
+W swarm_configurations%s  swarm_configurations.adb  swarm_configurations.ali
+W swarm_control%s	swarm_control.adb	swarm_control.ali  EA
+W swarm_control_concurrent_generic%s  swarm_control_concurrent_generic.adb  swarm_control_concurrent_generic.ali  EA
+W swarm_data%s		swarm_data.ads		swarm_data.ali
+W swarm_structures%s	swarm_structures.adb	swarm_structures.ali
+W swarm_structures_base%s  swarm_structures_base.ads  swarm_structures_base.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.entries%s  s-tpoben.adb  s-tpoben.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+W vectors_3d%s		vectors_3d.adb		vectors_3d.ali
+
+U callback_procedures%s	callback_procedures.ads	0bb57c0d DE EB EE NE OO PK
+
+D ada.ads		20180524051735 76789da1 ada%s
+D a-calend.ads		20180524051736 372815c8 ada.calendar%s
+D a-charac.ads		20180524051735 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051735 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20180524051734 61e5e089 ada.containers%s
+D a-cohata.ads		20180524051736 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20180524051735 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20180524051735 20298884 ada.containers.helpers%s
+D a-convec.ads		20180524051736 7e2b0fdf ada.containers.vectors%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051736 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20180524051735 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20180524051735 bb51c45a ada.numerics%s
+D a-nuflra.ads		20180524051734 4056ab7a ada.numerics.float_random%s
+D a-ngelfu.ads		20180524051736 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20180524051736 0240fc73 ada.real_time%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-ststio.ads		20180524051735 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20180524051735 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051735 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051736 8098c91f ada.strings.unbounded%s
+D a-stunha.ads		20180524051735 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-taside.ads		20180524051737 c3e0cda8 ada.task_identification%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051734 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20180524051735 eff36322 ada.unchecked_deallocation%s
+D barrier_type.ads	20130924033142 7bea4b20 barrier_type%s
+D callback_procedures.ads  20130917012538 0bb57c0d callback_procedures%s
+D callback_procedures.adb  20190902013422 29f275c5 callback_procedures%b
+D exceptions.ads	20130917215000 93f8a807 exceptions%s
+D generic_protected.ads	20130915151338 3536765d generic_protected%s
+D generic_realtime_buffer.ads  20130912081846 a4c755fe generic_realtime_buffer%s
+D generic_sliding_statistics.ads  20130922091012 76c24e85 generic_sliding_statistics%s
+D generic_sliding_statistics.adb  20110907233726 56cb11fb generic_sliding_statistics%b
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D glut.ads		20130919035244 2e6186fc glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D graphics_configuration.ads  20130915031142 fc788553 graphics_configuration%s
+D graphics_data.ads	20130915031208 38c3c67d graphics_data%s
+D graphics_framerates.ads  20130922091222 2cebd15a graphics_framerates%s
+D graphics_opengl.ads	20130922091012 bce8e58e graphics_opengl%s
+D graphics_structures.ads  20130922091012 168856d0 graphics_structures%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-c.ads		20180524051734 5421119b interfaces.c%s
+D i-cpoint.ads		20180524051736 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20180524051735 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D keyboard.ads		20130913102934 0e4a9377 keyboard%s
+D matrices.ads		20130922091012 85f7982e matrices%s
+D models.ads		20130912102734 2c8da29a models%s
+D quaternions.ads	20130922091012 9d9d58c2 quaternions%s
+D real_type.ads		20130922130032 cdd2e5cc real_type%s
+D rotations.ads		20130922091012 3eeded66 rotations%s
+D screenshots.ads	20110716113522 fb6ddf6f screenshots%s
+D swarm_configuration.ads  20200930123526 b5fc8151 swarm_configuration%s
+D swarm_configurations.ads  20190902013422 517ea45d swarm_configurations%s
+D swarm_control.ads	20130924092732 2697fa7c swarm_control%s
+D swarm_control_concurrent_generic.ads  20130916013610 7d3a30dd swarm_control_concurrent_generic%s
+D swarm_control_concurrent_generic.adb  20191003041244 274f3598 swarm_control_concurrent_generic%b
+D swarm_data.ads	20190902013422 2e78ed2c swarm_data%s
+D swarm_structures.ads	20130924092452 faad3089 swarm_structures%s
+D swarm_structures_base.ads  20190902013422 aac90073 swarm_structures_base%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-atacco.ads		20180524051736 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20180524051736 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20180524051735 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180524051736 0b705ca5 system.concat_3%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-fatflt.ads		20180524051735 11beb392 system.fat_flt%s
+D s-fatgen.ads		20180524051736 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20180524051735 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-finmas.ads		20180524051736 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051736 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20180524051734 c7a851e2 system.img_real%s
+D s-memory.ads		20180524051735 597d6634 system.memory%s
+D s-multip.ads		20180524051734 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20180524130237 089051b2 system.os_constants%s
+D s-osinte.ads		20180524051737 01b3ad47 system.os_interface%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-pooglo.ads		20180524051734 ede33ef8 system.pool_global%s
+D s-rannum.ads		20180524051735 99ade2f2 system.random_numbers%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stausa.ads		20180524051735 017a0a05 system.stack_usage%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stalib.adb		20180524051734 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20180524051735 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180524051734 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180524051734 aedef97e system.stream_attributes%s
+D s-string.ads		20180524051736 8fe54fb7 system.strings%s
+D s-ststop.ads		20180524051734 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20180524051737 801abd01 system.task_info%s
+D s-taspri.ads		20180524051736 f40ac08d system.task_primitives%s
+D s-taprop.ads		20180524051736 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20180524051737 1d8c1ccb system.tasking%s
+D s-taprob.ads		20180524051736 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20180524051737 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20180524051737 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20180524051736 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20180524051737 cca55c94 system.tasking.stages%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+D vectors_2d_n.ads	20190922083314 d15dcc29 vectors_2d_n%s
+D vectors_3d.ads	20190922082522 d93f5008 vectors_3d%s
+D vectors_xd.ads	20190902013422 29c3a87f vectors_xd%s
+D vectors_xd_i.ads	20190902013422 dd7f011a vectors_xd_i%s
+D vehicle_message_type.ads  20200929085644 c08a8034 vehicle_message_type%s
+D vehicle_task_type.ads	20160828063224 9ebc7351 vehicle_task_type%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 ada.ads
+16K9*Ada 20e8 32|5r6 5r45 6r6 6r45
+X 5 a-contai.ads
+20I9*Count_Type<integer>
+X 7 a-cohama.ads
+96R9*Map<11|43R9>
+X 9 a-convec.ads
+78I12*Extended_Index{integer}
+88R9*Vector<11|43R9>
+165V13*Length{5|20I9} 32|138s37[75|110] 477s99[75|110]
+196V13*Element{75|93R9} 32|198s35[75|110] 201s66[75|110] 202s66[75|110] 216s60[75|110]
+. 231s85[75|38] 234s70[75|110]
+512V13*First_Index{integer} 32|214s28[75|110] 229s56[75|38]
+522V13*Last_Index{78I12[75|110]} 32|214s57[75|110] 229s118[75|38]
+X 13 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[9|111]>
+X 14 a-numeri.ads
+16K13*Numerics 32e17 32|5r10 5r49
+X 15 a-nuflra.ads
+41K22*Float_Random 74e30 32|5w19 5r58
+47R9*Generator<98|63R9> 32|30r28
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<98|71p13> 32|402s25
+53U14*Reset<98|100p14> 32|528s7
+X 16 a-ngelfu.ads
+94V13*Sin{long_float} 32|253s44[66|7] 255s44[66|7] 257s44[66|7] 282s44[66|7]
+. 284s44[66|7] 286s44[66|7] 321s44[66|7] 323s44[66|7] 325s44[66|7] 359s41[66|7]
+. 361s41[66|7] 363s41[66|7]
+103V13*Cos{long_float} 32|254s44[66|7] 256s44[66|7] 258s44[66|7] 283s44[66|7]
+. 285s44[66|7] 287s44[66|7] 322s44[66|7] 324s44[66|7] 326s44[66|7] 360s41[66|7]
+. 362s41[66|7] 364s41[66|7]
+X 17 a-reatim.ads
+39K13*Real_Time 185e18 32|6w10 6r49
+54O9*Time_Span<duration> 32|172r37
+110V13*To_Duration{duration} 32|174s57
+X 31 callback_procedures.ads
+5K9*Callback_Procedures 11l5 11e24 32|28b14 535l5 535t24
+9U14*Main_Operations 32|170b14 517l8 517t23
+X 32 callback_procedures.adb
+30r4 Zero_to_One_Generator{15|47R9} 402r33 528r14
+34i4 Smoothing_Time{positive} 37r87 39r87
+36K12 Centre_Of_Gravity_Stats[36|12] 41r46
+38K12 Mean_Radius_Stats[36|12] 42r46
+41K12 Centre_Of_Gravity_Averages[36|20] 41r84
+42K12 Mean_Radius_Averages[36|20] 42r84
+46K12 Swarm_Control_Concurrent[72|9] 47r8
+49K12 Execute_Commands 55E7 56l8 56e24 58b17 164l8 164t24 185r13 194r13
+50U17*Act_On_Input 50=31 51=31 52>31 53>31 60b17 163l11 163t23 185s30 194s30
+50a31 Position{124|14A12} 60b31 85m28 88m28 160m13 160r32
+51r31 Rotation{67|20R12} 61b31 86m28 89m28 113m39 114r25 115m40 116r25 117m37
+. 118r25 119m39 120r25 121m37 122r25 123m41 124r25 155r49
+52f31 Time{66|5F12} 62b31 66r52 67r52
+53a31 Commands{62|37A9} 63b31 71r25 72r16 152r27
+55b7 Keys_Released{boolean} 79r25 93r25 97r25 101r25 105r25 137r25 145r25
+. 152m10
+65f10 Accelerator{66|5F12} 76r57 77r57
+66f10 Rotation_Speed{66|5F12} 76m22 76r40 114r59 116r59 118r54 120r54 122r49
+. 124r49
+67f10 Moving_Speed{66|5F12} 77m22 77r40 127r66 128r66 129r66 130r66 131r66
+. 132r66
+68a10 Step{124|14A12} 127m43 127r55 128m43 128r55 129m43 129r55 130m43 130r55
+. 131m43 131r55 132m43 132r55 155m27 155r43 159r22 160r50
+71e14 Command{62|9E9} 72r26 73r21
+159e14 Axes{124|10E9} 160r23 160r42 160r56
+172o7 Time_Interval{17|54O9} 173r79 174r70
+173i7 FrameRate{natural} 476r53
+174f7 Time_Interval_Real{66|5F12} 185r76 194r77 269r112 302r117 307r117 341r117
+. 346r117 400r115 421r112 431r117
+176a7 Commands{62|37A9} 181m17 181r17 185r96 194r97
+201f22 Element_Pitch{67|24F12} 205r79
+202f22 Element_Yaw{67|24F12} 204r62
+214i11 Element_Index{integer} 216r82
+216r13 This_Element{75|93R9} 218r32 222r16 223r70 223r102 225r70 225r102
+. 229r69 229r130 231r94 234r38
+217i13 Charge_Index{positive} 223r55 225r55
+229i20 Neighbour_Index{integer} 231r123
+231r22 Distance_Entry{75|26R9} 233r25 234r92
+250i17 Globe_Ix{integer} 269r27 269r81 270r27
+253f19 Sin_x{66|5F12} 264r80
+254f19 Cos_x{66|5F12} 262r80 263r80
+255f19 Sin_y{66|5F12} 263r88
+256f19 Cos_y{66|5F12} 262r88
+257f19 Sin_z{66|5F12} 262r63 263r63
+258f19 Cos_z{66|5F12} 264r63
+260f19 Radius{66|5F12} 262r71 263r71 264r71
+262a19 Sphere_Offset{76|15A12} 266r100
+266a19 New_Position{76|15A12} 269r58 270r57 271r45
+279i17 Globe_Ix{integer} 301r22 302r30 302r86 303r30 307r30 307r86 308r30
+282f19 Sin_x{66|5F12} 293r82
+283f19 Cos_x{66|5F12} 291r82 292r82
+284f19 Sin_y{66|5F12} 292r90
+285f19 Cos_y{66|5F12} 291r90
+286f19 Sin_z{66|5F12} 291r65 292r65
+287f19 Cos_z{66|5F12} 293r65
+289f19 Radius{66|5F12} 291r73 292r73 293r73
+291a19 Sphere_Offset_1{76|15A12} 295r60 297r102
+295a19 Sphere_Offset_2{76|15A12} 298r102
+297a19 New_Position_1{76|15A12} 302r61 303r60 304r48
+298a19 New_Position_2{76|15A12} 307r61 308r60 309r48
+318i17 Globe_Ix{integer} 340r22 341r30 341r86 342r30 346r30 346r86 347r30
+321f19 Sin_x{66|5F12} 332r82
+322f19 Cos_x{66|5F12} 330r82 331r82
+323f19 Sin_y{66|5F12} 331r90
+324f19 Cos_y{66|5F12} 330r90
+325f19 Sin_z{66|5F12} 330r65 331r65
+326f19 Cos_z{66|5F12} 332r65
+328f19 Radius{66|5F12} 330r73 331r73 332r73
+330a19 Sphere_Offset_1{76|15A12} 334r60 336r102
+334a19 Sphere_Offset_2{76|15A12} 337r102
+336a19 New_Position_1{76|15A12} 341r61 342r60 343r48
+337a19 New_Position_2{76|15A12} 346r61 347r60 348r48
+359f16 Sin_x{66|5F12} 371r41
+360f16 Cos_x{66|5F12} 369r41 370r41
+361f16 Sin_y{66|5F12} 370r49
+362f16 Cos_y{66|5F12} 369r49
+363f16 Sin_z{66|5F12} 369r24 370r24
+364f16 Cos_z{66|5F12} 371r24
+366f16 Radius{66|5F12} 369r32 370r32 371r32
+368a16 Phase{76|15A12} 374r24 375r25 376r30 377r30 378r30 379r31 380r31 381r31
+. 382r30 383r30 384r30 385r31 386r31 387r31
+373a16 Sphere_Offsets(76|15A12) 393r103
+391i20 Globe_Ix{integer} 393r119 400r30 400r84 401r30 403r33 403r65 405r36
+. 408r33
+393a22 New_Position{76|15A12} 400r61 401r60 409r51
+395V31 No_of_Active_Globes{natural} 395>52 397s53 404s28
+395i52 Ix{positive} 396r37 397r31 397r74
+417i17 Globe_Ix{integer} 419r124 421r27 421r81 422r27 423r53
+419a19 New_Position{76|15A12} 421r58 422r57
+429i17 Globe_Ix{integer} 430r24 431r24 431r62 432r50
+446a13 Beam_Colour_Red{56|20A9} 454r124
+447a13 Beam_Colour_Green{56|20A9} 455r124
+448a13 Beam_Colour_Blue{56|20A9} 456r124
+449a13 Beam_Colour_Magenta{56|20A9} 458r124 459r124
+450a13 Beam_Colour_Cyan{56|20A9} 461r124 462r124
+451a13 Beam_Colour_Yellow{56|20A9} 464r124 465r124
+471a13 Text_Colour{56|20A9} 474r25
+515r12 E{10|63R9} 515r42
+523U14 Initialize_Environment 523b14 531l8 531t30 534s4
+530r12 E{10|63R9} 530r42
+X 33 exceptions.ads
+17K10*Exceptions 32|7w6 7r45 7r102 33|22e15
+19U14*Show_Exception 32|515s26 530s26
+X 34 generic_protected.ads
+14W19*Monitor
+16V16 Read{125|14A9[124|12]} 32|198s73[76|38] 201s104[75|91] 202s104[75|91]
+. 223s96[76|38] 223s128[75|91] 225s96[76|38] 225s128[75|91] 234s64[76|38]
+. 234s127[76|38] 269s104[76|38] 302s109[76|38] 307s109[76|38] 341s109[76|38]
+. 346s109[76|38] 400s107[76|38] 421s104[76|38] 423s76[76|38] 431s85[76|38]
+. 432s73[76|38]
+18U17 Write 32|269s50[76|39] 270s50[76|38] 302s53[76|39] 303s53[76|38] 307s53[76|39]
+. 308s53[76|38] 341s53[76|39] 342s53[76|38] 346s53[76|39] 347s53[76|38] 400s53[76|39]
+. 401s53[76|38] 421s50[76|39] 422s50[76|38] 430s47[76|39] 431s47[76|38]
+28P9*Monitor_Ptr(14W19[76|39])
+X 36 generic_sliding_statistics.ads
+9+9 Element 32|36r71 38r71
+10i4 Buffer_Size{positive} 32|37r71 39r71
+12k9*Generic_Sliding_Statistics 32|9w6 9r102 36r43 38r43 36|41e31
+20k12*Averages 32|41r70[36] 42r64[38]
+21V16*Average{long_float} 32|260s45[42] 266s56[41] 289s45[42] 297s58[41]
+. 298s58[41] 328s45[42] 336s58[41] 337s58[41] 366s42[42] 393s59[41] 419s56[41]
+X 40 gl-buffer-general.ads
+14R9 base_Object<39|20R9>
+X 48 globe_3d.ads
+264P9*p_Object_3D(371R9)
+X 52 graphics_configuration.ads
+14K9*Graphics_Configuration 32|10w6 10r45 52|57e27
+16f4*Intented_Framerate{54|12F12} 32|37r114 39r114 179r26
+18a4*Initial_Cams(56|37R9) 32|85r40 86r40 88r40 89r40 190r26 196r37 526r14
+X 53 graphics_data.ads
+12K9*Graphics_Data 32|11w6 11r45 53|36e18
+16e4*Camera_Mode{56|51E9} 32|83r27 85r54 86r54 88r54 89r54 106r30 107m42
+. 108m42 154r15 183r12 186r18 190r40 195r18 196r51 526r28
+18r4*Cam{56|37R9} 32|185m44 185r44 185m62 185r62 188m19 190m19 194m44 194r44
+. 194m63 194r63 196m30 198m19 204m22 205m22 205r46 526m7
+28b4*Show_Text_Overlay{boolean} 32|102m25 102r50 469r10
+29b4*Show_Connecting_Lines{boolean} 32|98m25 98r54 228r16
+30b4*Show_Axis{boolean} 32|94m25 94r42 444r10
+34a4*Sphere_Angles{124|14A12} 32|248m13 248r30 253r49 254r49 255r49 256r49
+. 257r49 258r49 277m13 277r30 282r49 283r49 284r49 285r49 286r49 287r49 316m13
+. 316r30 321r49 322r49 323r49 324r49 325r49 326r49 355m13 355r30 359r46 360r46
+. 361r46 362r46 363r46 364r46
+X 54 graphics_framerates.ads
+8K9*Graphics_FrameRates 32|12w6 12r45 54|20e24
+12F12*Hz{66|5F12}
+14V13*Measure_Interval{17|54O9} 32|172s51
+16V13*Average_Framerate{12F12} 32|173s60
+18U14*Framerate_Limiter 32|179s7
+X 55 graphics_opengl.ads
+12K9*Graphics_OpenGL 32|13w6 13r45 55|58e20
+16U14*Position_Camera 32|212s7
+18U14*Draw 32|223s16 225s16 271s19 304s22 309s22 343s22 348s22 409s25 423s19
+. 432s16
+22U14*Draw_Lines 32|234s25
+25U14*Draw_Laser 32|454s13 455s13 456s13 458s13 459s13 461s13 462s13 464s13
+. 465s13
+26f26 Beam_Radius{66|5F12} 32|454r64 455r64 456r64 458r64 459r64 461r64 462r64
+. 464r64 465r64
+26f39 Aura_Radius{66|5F12} 32|454r87 455r87 456r87 458r87 459r87 461r87 462r87
+. 464r87 465r87
+27a26 Beam_Colour{56|20A9} 32|454r109 455r109 456r109 458r109 459r109 461r109
+. 462r109 464r109 465r109
+29K12*Cursor_Management 32|472r17 55|40e25
+31U17*Home 32|475s13
+32U17*Line_Feed 32|476s86 477s125 478s139 479s126 480s126 481s126 484s86
+. 485s86 488s86 489s86 492s86 495s86
+33U17*Paragraph_Feed 32|482s126 486s86 490s86 493s86
+34U17*Indend 32|477s45 478s45 479s45 480s45 481s45 482s45
+42U14*Text_2D 32|476s13 477s13 477s59 478s13 478s59 479s13 479s59 480s13
+. 480s59 481s13 481s59 482s13 482s59 484s13 485s13 486s13 488s13 489s13 490s13
+. 492s13 493s13 495s13
+45U14*Show_Drawing 32|499s7
+47K12*Full_Screen_Mode 32|80r25 55|52e24
+48U17*Change_Full_Screen 32|80s42
+55U14*Set_Colour 32|474s13
+X 56 graphics_structures.ads
+12K9*Graphics_Structures 32|14w6 14r45 56|72e24
+15n18*Red{15E9} 32|446r60 447r60 448r60 449r60 450r60 451r60 471r52
+15n23*Green{15E9} 32|446r73 447r73 448r73 449r73 450r73 451r73 471r65
+15n30*Blue{15E9} 32|446r88 447r88 448r88 449r88 450r88 451r88 471r80
+15n36*Alpha{15E9} 32|446r102 447r102 448r102 449r102 450r102 451r102 471r94
+17F12*Colour_Component_Range{66|5F12}
+20A9*RGBA_Colour(17F12)<15E9> 32|446r44 447r44 448r44 449r44 450r44 451r44
+. 471r36
+32A12*Point_3D{124|14A12}<124|10E9>
+39a10*Position{124|14A12} 32|188m23 198m23
+40a10*Scene_Offset{124|14A12} 32|85r67 185m48
+41a10*Object_Offset{124|14A12} 32|88r67 194m48
+42r10*Rotation{67|20R12} 32|86r67 89r67 185m66 194m67 204m26 205m26 205r50
+51n27*Scene{51E9} 32|84r30 107r33 108r57 155r18 184r15 187r21 196r21
+51n34*Chase{51E9} 32|87r30 107r57 108r33 156r18 189r21 193r15 197r21
+X 62 keyboard.ads
+7K9*Keyboard 32|15w6 15r45 62|44e13
+11n7*Move_Accelerator{9E9} 32|75r24
+12n7*Full_Screen{9E9} 32|78r24
+13n7*Reset_Camera{9E9} 32|82r24
+14n7*Screen_Shot{9E9} 32|91r24
+15n7*Toggle_Axis{9E9} 32|92r24
+16n7*Toggle_Lines{9E9} 32|96r24
+17n7*Text_Overlay{9E9} 32|100r24
+18n7*Space{9E9} 32|104r24
+20n7*Rotate_Up{9E9} 32|117r24
+21n7*Rotate_Down{9E9} 32|119r24
+22n7*Rotate_Left{9E9} 32|113r24
+23n7*Rotate_Right{9E9} 32|115r24
+24n7*Rotate_CW{9E9} 32|121r24
+25n7*Rotate_AntiCW{9E9} 32|123r24
+27n7*Strafe_Up{9E9} 32|129r24
+28n7*Strafe_Down{9E9} 32|130r24
+29n7*Strafe_Left{9E9} 32|127r24
+30n7*Strafe_Right{9E9} 32|128r24
+31n7*Strafe_Forward{9E9} 32|131r24
+32n7*Strafe_Backward{9E9} 32|132r24
+34n7*Add_Vehicle{9E9} 32|136r24
+35n7*Remove_Vehicle{9E9} 32|144r24
+37A9*Commands_Array(boolean)<9E9> 32|53r50 63r50 176r18
+39a4*Command_Set_Reset{37A9} 32|152r38 176r36
+41U14*Get_Keys 32|181s7
+X 64 models.ads
+7K9*Models 32|16w6 16r45 64|30e11
+11n35*Sphere{11E9} 32|271r36 304r39 309r39 343r39 348r39 409r42 423r36 432r33
+21n32*G_Turquoise{21E9} 32|225r42
+21n45*G_Ruby{21E9} 32|223r42
+23A9*Models_Field(48|264P9)<11E9>
+24A9*Gradient_Field(48|264P9)<21E9><integer>
+26a4*Model_Set{23A9} 32|271r25 304r28 309r28 343r28 348r28 409r31 423r25
+. 432r22
+28a4*Spaceship_Gradient{24A9} 32|218r68 218r98 219r33 223r22 225r22
+X 66 real_type.ads
+3K9*Real_Type 32|8w6 8r45 66|10e14
+5F12*Real{long_float} 32|38r87 52r50 62r50 65r36 66r36 67r36 174r37 174r51
+. 218r26 218r62 219r27 253r36 254r36 255r36 256r36 257r36 258r36 260r37 282r36
+. 283r36 284r36 285r36 286r36 287r36 289r37 321r36 322r36 323r36 324r36 325r36
+. 326r36 328r37 359r33 360r33 361r33 362r33 363r33 364r33 366r34 478r75 479r75
+. 480r75 481r75 482r75
+7K12*Real_Elementary_Functions[16|39] 32|32r8
+X 67 rotations.ads
+12K9*Rotations 32|17w6 17r45 67|68e14
+19A12*Vector{124|14A12}<124|10E9>
+20R12*Quaternion_Rotation{65|9R9} 32|51r50 61r50
+24F12*Radiants{66|5F12} 32|201r47 202r47
+37V13*To_Rotation{20R12} 32|114s35 116s35 118s35 120s35 122s35 124s35 204s38
+. 205s60
+41V13*Zero_Rotation{20R12} 32|271s59 304s64 309s64 343s64 348s64 409s65 423s82
+. 432s79
+45V13*Rotate{20R12} 32|113s51 115s52 117s49 119s51 121s49 123s53 205s38
+49V13*Rotate{19A12} 32|155s35
+52V13*Pitch{24F12} 32|201s59
+53V13*Yaw{24F12} 32|202s59
+X 68 screenshots.ads
+5K9*Screenshots 32|18w6 18r45 68|9e16
+7U14*Take_Shot 32|91s39
+X 69 swarm_configuration.ads
+16K9*Swarm_Configuration 32|19w6 19r45 69|84e24
+19e4*Configuration{70|12E9} 32|244r12
+45f4*Comms_Range{66|5F12} 32|233r52
+52i4*No_of_Cores_for_Swarm{positive} 32|46r78
+59a4*Energy_Globes_Defaults{76|36A9} 32|419r100
+60a4*Energy_Globes_Velocity{124|14A12} 32|430r54 431r92
+63a4*Sphere_Increment{124|14A12} 32|248r46 277r46
+67a4*Sphere_Increment_Fast{124|14A12} 32|316r46 355r46
+X 70 swarm_configurations.ads
+10K9*Swarm_Configurations 32|20w6 20r45 70|57e25
+12n28*Single_Globe_In_Orbit{12E9} 32|246r15
+12n51*Dual_Globes_In_Orbit{12E9} 32|275r15
+12n73*Dual_Globes_In_Orbit_Fast{12E9} 32|314r15
+12n100*Random_Globes_In_Orbits{12E9} 32|353r15
+12n125*Globe_Grid_In_Centre{12E9} 32|415r15
+12n147*Globe_Grid_Drifting{12E9} 32|427r15
+X 71 swarm_control.ads
+13K9*Swarm_Control 32|21w6 21r45 21r102 71|68e18
+17w14*Swarm_Monitor 32|139r28 141r28 141r66 188r35 260r54 266r65 289r54 297r67
+. 298r67 328r54 336r67 337r67 366r51 393r68 419r65 478r105 479r87 480r87
+. 481r87 482r87 527r7
+30U17 Append_Random_Swarm 32|139s42 141s42 527s21
+36V16 Centre_Of_Gravity{124|14A12} 32|141s80 188s49 266s79 297s81 298s81
+. 336s81 337s81 393s82 419s79
+37V16 Mean_Velocity{124|14A12} 32|478s119
+38V16 Mean_Velocity{66|5F12} 32|479s101
+39V16 Maximal_Radius{66|5F12} 32|480s101
+40V16 Mean_Radius{66|5F12} 32|260s68 289s68 328s68 366s65 481s101
+41V16 Mean_Closest_Distance{66|5F12} 32|482s101
+52U14*Remove_Vehicles 32|146s25
+66U14*Remove_Empties 32|510s7
+X 72 swarm_control_concurrent_generic.ads
+9k9*Swarm_Control_Concurrent_Generic 32|22w6 22r102 46r44 72|15e37
+11E9*Job_Type
+11n22*Set_Accelerations{11E9[32|46]} 32|506r24[46]
+11n41*Forward_Messages{11E9[32|46]} 32|507r24[46]
+11n59*Move_Elements{11E9[32|46]} 32|508r24[46]
+11n74*Update_Rotations{11E9[32|46]} 32|509r24[46]
+13U14*Distribute_Jobs 32|506s7[46] 507s7[46] 508s7[46] 509s7[46]
+X 74 swarm_data.ads
+10K9*Swarm_Data 32|23w6 23r45 74|21e15
+17r4*Swarm_State{9|88R9[75|110]} 32|138r45 198r44 201r75 202r75 214r41 214r69
+. 216r69 234r79 477r107
+19a4*Globes{76|47A9} 32|250r29 269r19 269r73 270r19 279r29 301r33 302r22
+. 302r78 303r22 307r22 307r78 308r22 318r29 340r33 341r22 341r78 342r22 346r22
+. 346r78 347r22 373r49 391r32 396r29 397r36 400r22 400r76 401r22 403m25 403r57
+. 404r49 405m28 408r25 417r29 421r19 421r73 422r19 423r45 429r29 430r16 431r16
+. 431r54 432r42
+X 75 swarm_structures.ads
+19K9*Swarm_Structures 32|24w6 24r45 75|124e21
+26R9*Distance_Entries 32|231r48 75|32e17
+28i10*Index{76|19I12} 32|234r107
+29f10*Distance{76|12F12} 32|233r40
+35V14*"<"{boolean} 9|628i22
+38K12*Distance_Vectors[9|73] 32|229r39 229r101 231r68
+67V16 Read_Throttle{76|20F12} 32|222s42
+80f7*Level{76|25F9} 32|218r52
+86P9*Neighbours_P(9|88R9[38])
+88P9*Vehicle_Controls_P(63W19)
+93R9*Swarm_Element_State 32|216r37 75|108e17
+95p10*Position{34|28P9[76|38]} 32|198r60 223r83 225r83 234r51 234r114
+96p10*Rotation{34|28P9[91]} 32|201r91 202r91 223r115 225r115
+99r10*Charge{79R9} 32|218r45
+100p10*Neighbours{86P9} 32|229r82 229r143 231r107
+101p10*Controls{88P9} 32|222r29
+110K12*Swarm_Vectors[9|73] 32|44r8
+117w14*Simulator_Tick 32|512r7
+119U17 Tick 32|512s22
+X 76 swarm_structures_base.ads
+10K9*Swarm_Structures_Base 32|25w6 25r45 76|49e26
+12F12*Distances{66|5F12}
+15A12*Positions{56|32A12}<124|10E9> 32|262r44 266r43 291r46 295r46 297r45
+. 298r45 330r46 334r46 336r45 337r45 368r33 373r66 393r46 419r43
+19I12*Swarm_Element_Index{positive}
+20F12*Throttle_T{66|5F12}
+22f4*Idle_Throttle{20F12} 32|222r59
+25F9*Vehicle_Charges<long_float>
+32a7*Position{15A12} 32|419r134
+36A9*Energy_Globes(31R9)<integer>
+42b7*Active{boolean} 32|396r41 403m43 403r75 405m46 408r43
+43p7*Position{34|28P9[38]} 32|269r91 270r37 302r96 303r40 307r96 308r40 341r96
+. 342r40 346r96 347r40 400r94 401r40 421r91 422r37 423r63 431r34 431r72 432r60
+44p7*Velocity{34|28P9[39]} 32|269r37 302r40 307r40 341r40 346r40 400r40 421r37
+. 430r34
+47A9*Energy_Globes_Protected(41R9)<integer>
+X 77 system.ads
+67M9*Address
+X 92 s-memory.ads
+53V13*Alloc{77|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{77|67M9} 105i<c,__gnat_realloc>22
+X 102 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 104 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 124 vectors_3d.ads
+8K9*Vectors_3D 32|26w6 26r45 478r87 124|41e15
+10n25*x{10E9} 32|127r49 127r61 128r49 128r61 253r64 254r64 262r58 282r64
+. 283r64 291r60 321r64 322r64 330r60 359r61 360r61 369r19 376r25 376r37 379r25
+. 379r38 382r25 384r37 385r25 387r38
+10n28*y{10E9} 32|131r49 131r61 132r49 132r61 255r64 256r64 263r58 284r64
+. 285r64 292r60 323r64 324r64 331r60 361r61 362r61 370r19 377r25 378r37 380r25
+. 381r38 383r25 383r37 386r25 386r38
+10n31*z{10E9} 32|129r49 129r61 130r49 130r61 257r64 258r64 264r58 286r64
+. 287r64 293r60 325r64 326r64 332r60 363r61 364r61 371r19 377r37 378r25 380r38
+. 381r25 382r37 384r25 385r38 387r25
+14A12*Vector_3D{125|14A9[12]}<10E9> 32|36r87 50r50 60r50 68r32 478r119
+23V14*"*"=23:85{125|14A9[12]} 32|431s115
+24V14*"/"=24:85{125|14A9[12]} 32|269s110 302s115 307s115 341s115 346s115
+. 400s113 421s110 36|18i22
+31V14*"+"=31:84{125|14A9[12]} 32|248s44 266s98 277s44 297s100 298s100 316s44
+. 336s100 337s100 355s44 393s101 419s98 431s90 36|17i22
+32V14*"-"=32:84{125|14A9[12]} 32|269s71 302s76 307s76 341s76 346s76 400s74
+. 421s71
+33V14*"-"=33:84{125|14A9[12]} 32|295s59 334s59 375s24
+35V14*"abs"=35:67{long_float} 32|478s99
+X 125 vectors_xd.ads
+14A9*Vector_xD(long_float)<124|10E9>
+

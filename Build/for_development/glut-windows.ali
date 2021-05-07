@@ -1,0 +1,715 @@
+V "GNAT Lib v2018"
+A -gnatA
+A -g
+A -gnatVa
+A -gnatVr
+A -gnatVp
+A -gnatVm
+A -gnatVi
+A -gnatVf
+A -gnatVe
+A -gnatVd
+A -gnatVc
+A -gnatVO
+A -gnatw.a
+A -gnatw.b
+A -gnatwc
+A -gnatw.c
+A -gnatwd
+A -gnatwf
+A -gnatwg
+A -gnatwh
+A -gnatw.h
+A -gnatwi
+A -gnatw.i
+A -gnatwj
+A -gnatwk
+A -gnatw.k
+A -gnatwl
+A -gnatw.l
+A -gnatwm
+A -gnatw.m
+A -gnatwo
+A -gnatw.o
+A -gnatwp
+A -gnatw.p
+A -gnatwq
+A -gnatwr
+A -gnatw.r
+A -gnatw.s
+A -gnatwz
+A -gnatwy
+A -gnatw.x
+A -gnatwx
+A -gnatww
+A -gnatw.v
+A -gnatwv
+A -gnatw.u
+A -gnatwu
+A -gnatw.t
+A -gnatwt
+A -gnatw.w
+A -gnat12
+A -gnatya
+A -gnatyA
+A -gnatyb
+A -gnatyB
+A -gnatyc
+A -gnatyC
+A -gnatye
+A -gnatyh
+A -gnatyf
+A -gnatyi
+A -gnatyk
+A -gnatyl
+A -gnatyn
+A -gnatyO
+A -gnatyp
+A -gnatyr
+A -gnatyS
+A -gnatyt
+A -gnatyu
+A -gnatyx
+A -gnatyI
+A -g
+A -gnata
+A -gnatf
+A -gnatE
+A -fstack-check=specific
+A -gnato
+A -mtune=core2
+A -mmacosx-version-min=10.14.7
+A -fPIC
+A -feliminate-unused-debug-symbols
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_UNCHECKED_ACCESS
+RV NO_UNCHECKED_CONVERSION
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U glut.windows%b	glut-windows.adb	a45951cf DE OO PK IU
+W actors%s		actors.adb		actors.ali
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.unchecked_conversion%s
+W gl%s			gl.adb			gl.ali
+W gl.frustums%s		gl-frustums.adb		gl-frustums.ali
+W gl.io%s		gl-io.adb		gl-io.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W globe_3d.math%s	globe_3d-math.adb	globe_3d-math.ali
+W globe_3d.software_anti_aliasing%s  globe_3d-software_anti_aliasing.adb  globe_3d-software_anti_aliasing.ali
+W glu%s			glu.adb			glu.ali
+W glut%s		glut.adb		glut.ali
+W glut_2d%s		glut_2d.adb		glut_2d.ali
+Z interfaces%s		interfac.ads		interfac.ali
+Z system%s		system.ads		system.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_3%s	s-conca3.adb		s-conca3.ali
+Z system.concat_4%s	s-conca4.adb		s-conca4.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_lli%s	s-imglli.adb		s-imglli.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+U glut.windows%s	glut-windows.ads	75e2ce49 DE EE OO PF PK IU
+W ada%s			ada.ads			ada.ali
+Z ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W game_control%s	game_control.adb	game_control.ali
+W globe_3d%s		globe_3d.adb		globe_3d.ali
+W glut%s		glut.adb		glut.ali
+W glut.devices%s	glut-devices.adb	glut-devices.ali
+Z system%s		system.ads		system.ali
+Z system.exception_table%s  s-exctab.adb	s-exctab.ali
+Z system.fat_lflt%s	s-fatlfl.ads		s-fatlfl.ali
+Z system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+Z system.pool_global%s	s-pooglo.adb		s-pooglo.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.storage_elements%s  s-stoele.adb	s-stoele.ali
+Z system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+Z system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+
+D actors.ads		20130914081220 49785326 actors%s
+D ada.ads		20180524051735 76789da1 ada%s
+D a-calend.ads		20180524051736 372815c8 ada.calendar%s
+D a-charac.ads		20180524051735 2d3ec45b ada.characters%s
+D a-chlat1.ads		20180524051735 66457d31 ada.characters.latin_1%s
+D a-contai.ads		20180524051734 61e5e089 ada.containers%s
+D a-cohata.ads		20180524051736 80a8c839 ada.containers.hash_tables%s
+D a-cohama.ads		20180524051735 8205bf40 ada.containers.hashed_maps%s
+D a-conhel.ads		20180524051735 20298884 ada.containers.helpers%s
+D a-except.ads		20180524051735 291912d5 ada.exceptions%s
+D a-finali.ads		20180524051736 bf4f806b ada.finalization%s
+D a-ioexce.ads		20180524051734 e4a01f64 ada.io_exceptions%s
+D a-iteint.ads		20180524051735 7c7305e9 ada.iterator_interfaces%s
+D a-numeri.ads		20180524051735 bb51c45a ada.numerics%s
+D a-ngelfu.ads		20180524051736 55716239 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20180524051735 119b8fb3 ada.streams%s
+D a-ststio.ads		20180524051735 a75f3183 ada.streams.stream_io%s
+D a-string.ads		20180524051735 90ac6797 ada.strings%s
+D a-strmap.ads		20180524051735 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20180524051736 8098c91f ada.strings.unbounded%s
+D a-stunha.ads		20180524051735 115e053b ada.strings.unbounded.hash%s
+D a-tags.ads		20180524051736 491b781d ada.tags%s
+D a-textio.ads		20180524051736 881db35a ada.text_io%s
+D a-tiflio.ads		20180524051734 56fbda09 ada.text_io.float_io%s
+D a-unccon.ads		20180524051736 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20180524051735 eff36322 ada.unchecked_deallocation%s
+D game_control.ads	20130915152006 9ee05dde game_control%s
+D gl.ads		20130917070654 28e5b432 gl%s
+D gl-buffer.ads		20130915152452 d412d3a2 gl.buffer%s
+D gl-buffer-general.ads	20130915152452 8ae6eb44 gl.buffer.general%s
+D gl-buffer-texture_coords.ads  20130915033518 e6b92a39 gl.buffer.texture_coords%s
+D gl-frustums.ads	20130914030456 3d23f8e0 gl.frustums%s
+D gl-geometry.ads	20130915152632 398a5530 gl.geometry%s
+D gl-io.ads		20130915151342 baba5f4e gl.io%s
+D gl-materials.ads	20130914014640 4d170091 gl.materials%s
+D gl-skinned_geometry.ads  20130914024446 0d393283 gl.skinned_geometry%s
+D gl-skins.ads		20130914143248 f0134d84 gl.skins%s
+D gl-textures.ads	20130915152416 6f569eb0 gl.textures%s
+D globe_3d.ads		20130918042558 4b81e8db globe_3d%s
+D globe_3d-math.ads	20130913114952 a86860bb globe_3d.math%s
+D globe_3d-software_anti_aliasing.ads  20130913115928 0a21aab2 globe_3d.software_anti_aliasing%s
+D globe_3d-software_anti_aliasing.adb  20191003041116 cf9e50e8 globe_3d.software_anti_aliasing%b
+D glu.ads		20130915152632 d0f1aa67 glu%s
+D glut.ads		20130919035244 2e6186fc glut%s
+D glut-devices.ads	20130917070814 e69207c9 glut.devices%s
+D glut-windows.ads	20130915152342 e8e83366 glut.windows%s
+D glut-windows.adb	20200907081956 22948a9d glut.windows%b
+D glut_2d.ads		20130915152342 561ab8e1 glut_2d%s
+D interfac.ads		20180524051734 5ab55268 interfaces%s
+D i-c.ads		20180524051734 5421119b interfaces.c%s
+D i-cpoint.ads		20180524051736 ee8a93ec interfaces.c.pointers%s
+D i-cstrin.ads		20180524051735 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20180524051734 e53d8b8e interfaces.c_streams%s
+D system.ads		20180524051735 085b6ffb system%s
+D s-atacco.ads		20180524051736 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20180524051736 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20180524051735 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20180524051736 0b705ca5 system.concat_3%s
+D s-conca4.ads		20180524051736 7e642b20 system.concat_4%s
+D s-crtl.ads		20180524051734 0ebbdb71 system.crtl%s
+D s-exctab.ads		20180524051736 54135002 system.exception_table%s
+D s-fatflt.ads		20180524051735 11beb392 system.fat_flt%s
+D s-fatgen.ads		20180524051736 49cbaf86 system.fat_gen%s
+D s-fatlfl.ads		20180524051735 378cba9f system.fat_lflt%s
+D s-ficobl.ads		20180524051736 078245e4 system.file_control_block%s
+D s-finmas.ads		20180524051736 7811a767 system.finalization_masters%s
+D s-finroo.ads		20180524051736 4ff27390 system.finalization_root%s
+D s-imgint.ads		20180524051734 02dbe0c2 system.img_int%s
+D s-imglli.ads		20180524051736 114f55d1 system.img_lli%s
+D s-memory.ads		20180524051735 597d6634 system.memory%s
+D s-parame.ads		20180524051736 48ec542b system.parameters%s
+D s-pooglo.ads		20180524051734 ede33ef8 system.pool_global%s
+D s-secsta.ads		20180524051736 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20180524051735 a7318a92 system.soft_links%s
+D s-stache.ads		20180524051736 a37c21ec system.stack_checking%s
+D s-stalib.ads		20180524051736 09bd3940 system.standard_library%s
+D s-stalib.adb		20180524051734 f2fe2716 system.standard_library%b
+D s-stoele.ads		20180524051736 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20180524051735 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20180524051735 b16154c2 system.storage_pools%s
+D s-stposu.ads		20180524051734 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20180524051734 aedef97e system.stream_attributes%s
+D s-string.ads		20180524051736 8fe54fb7 system.strings%s
+D s-ststop.ads		20180524051734 5fbf1b38 system.strings.stream_ops%s
+D s-traent.ads		20180524051734 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20180524051735 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20180524051736 1b7d22d2 system.wch_con%s
+D zip.ads		20130915151338 6e4a4be8 zip%s
+D zip_streams.ads	20130915151338 088b1cbe zip_streams%s
+X 1 actors.ads
+11K9*Actors 63e11 47|16w6 446r7 456r7
+17U14*Translation 47|456s14
+18a27 gc{27|46A8} 47|457r27
+19f27 gx{39|102F12} 47|458r27
+19f31 gy{39|102F12} 47|459r27
+20f27 unitary_change{39|102F12} 47|460r27
+21f27 deceleration{39|102F12} 47|461r27
+22f27 time_step{39|102F12} 47|462r27
+38U14*Rotation 47|446s14
+39a24 gc{27|46A8} 47|447r24
+40f24 gx{39|102F12} 47|448r24
+40f28 gy{39|102F12} 47|449r24
+41f24 unitary_change{39|102F12} 47|450r24
+42f24 deceleration{39|102F12} 47|451r24
+43f24 time_step{39|102F12} 47|452r24
+X 2 ada.ads
+16K9*Ada 20e8 46|17r6 84r26 84r68 47|21r6 21r45 22r6 26r6 34r8 44r33 329r27
+. 486r89 499r77 524r34 691r27 693r11
+X 3 a-calend.ads
+36K13*Calendar 398e17 47|26w10 329r31 486r93 499r81 691r31 693r15
+42I9*Time<211I9> 47|329r40 691r40
+48I12*Year_Number{integer}
+49I12*Month_Number{integer}
+50I12*Day_Number{integer}
+54O12*Day_Duration{duration}
+56V13*Clock{42I9} 47|486s102 499s90
+64V13*Year{48I12} 47|705s50
+65V13*Month{49I12} 47|706s50
+66V13*Day{50I12} 47|707s50
+67V13*Seconds{54O12} 47|700s21
+211I9 Time_Rep<long_long_integer>
+X 8 a-cohama.ads
+96R9*Map<11|43R9>
+X 13 a-iteint.ads
+24h9 Forward_Iterator
+X 14 a-numeri.ads
+16K13*Numerics 32e17 47|21w10 21r49
+21N4*Pi 47|36r32
+X 15 a-ngelfu.ads
+86V14*"**"<50|65F9> 47|395s28[39|103]
+94V13*Sin<50|65F9> 47|182s46[39|103]
+112V13*Tan<50|65F9> 47|170s35[39|103]
+145V13*Arctan<50|65F9> 47|179s31[39|103]
+X 18 a-string.ads
+16K13*Strings 35e16 46|17r10 84r30 84r72 47|34r12
+X 20 a-strunb.ads
+76K21*Unbounded 491e26 46|17w18 84r38 84r80 47|34r20
+79R9*Unbounded_String<11|43R9> 474e14 46|84r48
+94V13*To_Unbounded_String{79R9} 46|84s90 47|53s20
+100V13*To_String{string} 47|56s52 486s48 499s36
+X 25 a-unccon.ads
+20v14*Unchecked_Conversion 47|22w10 44r37 524r38
+X 27 game_control.ads
+12K9*Game_Control 69e17 46|14w6 111r26 111r54 47|336r25 401r7
+14E9*Command 43e21 47|361r39 361r57
+36n21*special_plus{14E9} 47|422r33
+37n21*special_minus{14E9} 47|425r33
+38n21*photo{14E9} 47|498r33
+38n28*video{14E9} 47|481r33
+40n21*interrupt_game{14E9} 47|416r33
+41n21*n0{14E9} 47|464r33
+41n25*n1{14E9} 47|359r16 361r70
+41n53*n8{14E9} 47|359r22
+46A8*Command_set(boolean)<14E9> 46|111r39
+49a3*no_command{46A8} 46|111r67 47|399r32
+61U13*Append_Commands 47|401s20
+61i30 size_x{integer} 47|401r37
+62i30 size_y{integer} 47|402r37
+63b30 warp_mouse{boolean} 47|403r37
+64a30 c{46A8} 47|404r37
+65f30 gx{28|128F9} 47|405r37
+65f34 gy{28|128F9} 47|406r37
+66p30 Keyboard(45|25R9) 47|407r37
+67p30 Mouse(45|50R9) 47|408r37
+X 28 gl.ads
+66K9*GL 4501e7 46|96r26 102r29 47|9w6 9r10 9r17 9r47 9r51 9r58 61r55 68r7
+. 68r18 143r12 159r28 160r28 167r29 167r60 339r29 340r29 476r41 483r13 486r13
+. 493r10 499r10 566r21
+125I9*Sizei<50|35I9> 46|96r29 47|159r31 160r31
+126F9*C_Float<50|64F9> 47|61r58
+128F9*Double<50|65F9> 46|102r32 47|167r32 167r63 339r32 340r32
+153A9*Light_Float_vector(126F9)<integer> 47|566r24
+155A9*Double_Vector_3D(128F9)<integer>
+562n7*LIGHTING{554E9} 47|68r21 112r16 226r16
+564n7*FOG{554E9} 47|574r18
+565n7*DEPTH_TEST{554E9} 47|115r16
+567n7*NORMALIZE{554E9} 47|114r16
+570n7*BLEND{554E9} 47|111r16
+578n7*AUTO_NORMAL{554E9} 47|113r16
+598n7*TEXTURE_2D{554E9} 47|227r16
+618n7*MULTISAMPLE_ARB{554E9} 47|304r21 582r18
+621n7*SAMPLE_COVERAGE_ARB{554E9} 47|583r18
+704U14*Enable 47|68s10 304s13 574s10 582s10 583s10
+706U14*Disable 47|111s7 112s7 113s7 114s7 115s7 226s7 227s7
+808n7*PROJECTION_MATRIX{737E9} 47|143r15
+1192U14*Get 47|143s7
+1326n7*MODELVIEW{1324E9} 47|122r19 147r19 472r22
+1327n7*PROJECTION{1324E9} 47|135r19
+1338U14*MatrixMode 47|122s7 135s7 147s7 472s7
+1624n7*SMOOTH{1621E9} 47|123r19
+1633U14*ShadeModel 47|123s7
+2970n7*FOG_DENSITY{2967E9} 47|576r18
+2992n7*FOG_COLOR{2985E9} 47|575r18
+3011U14*Fogf 47|576s10
+3017U14*Fogfv 47|575s10
+3192U14*ClearColor 47|126s7 308s13
+3201U14*ClearAccum 47|127s7 309s13
+3250U14*Flush 47|312s13 316s13
+3272U14*Viewport 47|133s7
+3278U14*PushMatrix 47|224s7
+3280U14*PopMatrix 47|264s7
+3282U14*LoadIdentity 47|136s7
+3306U14*Translate 47|474s7
+3404U14*Color 47|229s7
+3404f21 red{128F9} 47|229r14
+3404f26 green{128F9} 47|230r14
+3404f33 blue{128F9} 47|231r14
+X 30 gl-buffer-general.ads
+14R9 base_Object<29|20R9>
+X 32 gl-frustums.ads
+19K12*Frustums 31e16 47|9w20 9r61 476r44
+23A9*plane_Array(33|20A9)<21E9>
+27V13*Current_Planes{23A9} 47|476s53
+X 33 gl-geometry.ads
+20A9*Plane(28|128F9)<integer>
+X 34 gl-io.ads
+45K12*IO 163e10 47|9w13 9r54 483r16 486r16 493r13 499r13
+127U13*Screenshot 47|499s16
+127a25 Name{string} 47|499r28
+133U13*Start_Capture 47|486s19
+133a28 AVI_Name{string} 47|486r34
+133i47 frame_rate{positive} 47|487r34
+135U13*Capture_Frame 47|493s16
+137U13*Stop_Capture 47|483s19
+X 39 globe_3d.ads
+77K9*GLOBE_3D 606e13 46|19w6 25r23 37r42 38r42 38r67 45r54 46r54 68r44 82r23
+. 87r26 99r29 108r23 47|13r6 13r47 14r6 32r25 44r75 216r38 271r48 271r73
+. 284r44 284r69 292r26 326r43 334r51 334r76 524r60 549r42 621r53 621r78 640r54
+. 647r54
+102F12*Real{28|128F9} 46|37r51 68r53 108r32 47|155r35 156r35 216r47 333r55
+. 342r29 385r52 390r46 391r46 393r19 394r19 394r35 620r57
+103K12*REF[15|39] 47|153r11 336r20
+106A12*Vector_3D{28|155A9}<integer>
+111A12*Point_3D{106A12}<integer>
+113A9*Matrix(102F12)<integer><integer>
+114A9*Matrix_33<113A9>(102F12)<integer><integer>
+115A9*Matrix_44<113A9>(102F12)<integer><integer>
+117a4*Id_33{114A9} 47|326r52
+132i7*X1{integer} 47|162m41
+132i11*Y1{integer} 47|163m41
+132i15*X2{integer} 47|164m41
+132i19*Y2{integer} 47|165m41
+144a7*Eye_Position{111A12} 47|238r67 325m27 474r47 474r90 474r133
+145a7*view_direction{106A12} 47|242r78 468m31
+146f7*max_dot_product{102F12} 47|182m27
+147r7*main_clipping{135R12} 47|162m27 163m27 164m27 165m27
+158r10*Clipper{143R9} 47|162m19 163m19 164m19 165m19 182m19 238r59 242r70
+. 325m19 468m23 474r39 474r82 474r125
+162a10*World_Rotation{114A9} 47|326m19 468r76 473r38
+176f10*FOVy{102F12} 47|138r46 168r53
+177f10*Aspect{102F12} 47|139r46 167m19 173r86 176r85 178r22 179r51
+179f10*near_plane_Distance{102F12} 47|140r46 172r52
+180f10*near_plane_Width{102F12} 47|173m19
+181f10*near_plane_Height{102F12} 47|172m19 173r52
+183f10*far_plane_Distance{102F12} 47|141r46 175r52
+184f10*far_plane_Width{102F12} 47|176m19
+185f10*far_plane_Height{102F12} 47|175m19 176r52
+187a10*Projection_Matrix{115A9} 47|143m47 145m19 145r63
+189a10*frustum_Planes{32|23A9} 47|476m23
+209P9*p_Visual(197R9) 46|45r63 46r63 47|640r63 647r63
+210A9*Visual_array(209P9)<integer> 46|38r51 87r35 47|271r57 284r53 334r60
+. 621r62
+217x14*set_Alpha 47|437R13
+241a4*null_Visuals{210A9} 46|38r76 47|271r82 284r78 334r85 621r87
+243U14*render 47|276s11
+455H9*Window 458e17 46|25r32 82r32 47|549r51
+457r10*Camera{156R9} 47|138r39 139r39 140r39 141r39 143m40 145m12 145r56
+. 162m12 163m12 164m12 165m12 167m12 168r46 172m12 172r45 173m12 173r45 173r79
+. 175m12 175r45 176m12 176r45 176r78 178r15 179r44 182m12 238r52 242r63 276r72
+. 325m12 326m12 446m33 456m36 468m16 468r69 473r31 474r32 474r75 474r118
+. 476m16
+460P9*p_Window(455R9) 47|44r84 524r69
+488R9*Light_definition 490e14 46|99r38 47|63r26
+489a7*position{28|153A9} 47|63m47 80m19 83m19
+489a17*ambient{28|153A9} 47|64m47 84m19 87m19 90m19 93m19
+489a26*diffuse{28|153A9} 47|65m47 73m19 76m19
+489a35*specular{28|153A9} 47|66m47 77m19
+492U14*Define 47|70s11 74s11 78s11 81s11 85s11 88s11 91s11 94s11
+494U14*Switch_lights 47|96s11
+495U14*Switch_light 47|98s11 99s11 100s11 101s11 102s11 103s11 104s11
+497U14*Reverse_light_switch 47|361s13
+499V13*Is_light_switched{boolean} 47|247s13
+507V13*Coords{string} 47|238s39 242s50
+X 40 globe_3d-math.ads
+1K18*Math 92e18 47|13w15 13r56
+52V13*"*"{39|106A12} 47|468s92
+56V12*Transpose{39|114A9} 47|468s49
+57V12*Transpose{39|115A9} 47|145s40
+80U13*Set_GL_Matrix 47|473s7
+X 41 globe_3d-software_anti_aliasing.ads
+9k18*Software_Anti_Aliasing 24e36 47|14w15 292r35
+13V12 Anti_Alias_phases{positive} 47|299s39[292]
+17U13 Display_with_Anti_Aliasing 47|300s20[292]
+19E8 Quality
+19n24 Q3{19E8[47|292]} 47|298r34[292]
+22U13 Set_Quality 47|298s17[292]
+X 43 glu.ads
+48K9*GLU 738e8 47|9w30 9r71 138r7
+600U14*Perspective 47|138s11
+600f27 fovy{28|128F9} 47|138r24
+601f27 aspect{28|128F9} 47|139r24
+602f27 zNear{28|128F9} 47|140r24
+603f27 zFar{28|128F9} 47|141r24
+X 44 glut.ads
+22K9*GLUT 887e9 46|15r6 21r9 125r5 47|9w36 9r77 30r14 47r14 191r30 204r13
+. 206r13 206r29 319r7 371r19 371r29 517r53 517r81 526r22 526r39 526r54 526r67
+. 526r81 530r42 546r7 547r7 548r7 549r7 551r7 591r7 592r7 592r23 592r52 593r7
+. 593r23 615r7 724r5
+24M12*Unsigned{50|43M9} 47|526r27
+26V14*"or"=26:74{50|43M9} 47|526r51 526r64 526r78 530r39
+31N4*RGBA 47|526r59
+34N4*DOUBLE 47|526r44
+36N4*ALPHA 47|526r72
+37N4*DEPTH 47|526r86
+39N4*MULTISAMPLE 47|530r47
+98N4*HIDDEN 47|517r58
+101N4*FULLY_COVERED 47|517r86
+201N4*ELAPSED_TIME 47|371r34
+288N4*CURSOR_NONE 47|206r34
+296U14*Init 47|591s12
+303N4*ACTION_CONTINUE_EXECUTION 47|593r52
+305N4*ACTION_ON_WINDOW_CLOSE 47|593r28
+307N4*GLUT_RENDERING_CONTEXT 47|592r28
+310N4*GLUT_USE_CURRENT_CONTEXT 47|592r57
+314U14*SetOption 47|592s12 593s12
+317U14*InitDisplayMode 47|533s7
+325U14*InitWindowPosition 47|538s7
+328U14*InitWindowSize 47|537s7
+349V13*CreateWindow{integer} 47|540s27
+360U14*DestroyWindow 47|609s7
+369U14*SwapBuffers 47|319s12
+377V13*GetWindowData{54|67M9} 47|47s51
+380U14*SetWindow 47|615s12
+385U14*SetWindowData 47|549s12
+419U14*FullScreen 47|204s18
+422U14*SetCursor 47|206s18
+539U14*CloseFunc 47|546s12
+548U14*ReshapeFunc 47|547s12
+676U14*WindowStatusFunc 47|548s12
+699V13*Get{integer} 47|371s24
+X 45 glut-devices.ads
+11K14*Devices 60e17 46|15w11 75r59 76r59 115r30 116r30 47|551r12 686r58 688r55
+13U14*Initialize 47|551s20
+25R9*Keyboard 33e17 46|115r38
+35P9*p_Keyboard(25R9) 46|75r67 47|686r66
+50R9*Mouse 54e17 46|116r38
+56P9*p_Mouse(50R9) 46|76r67 47|688r63
+X 46 glut-windows.ads
+21K14*Windows 44|22k9 46|80E9 125l10 125e17 47|30b19 47r19 191r35 724l10
+. 724t17
+23U14*Initialize 47|588b14 594l8 594t18
+25R9*Window<39|455R9> 26r35 28p14 28r37 29p14 29r37 31p14 31r37 32p14 32r37
+. 34P25 34r47 36P25 36r53 40p13 40r31 45p14 45r33 46p14 46r33 48p14 48r35
+. 57p14 57r42 58p14 58r42 63p14 63r41 64p14 64r41 67p14 67r44 70p13 70r39
+. 75r38 76r38 82c9 122e17 47|50r37 56r26 58r31 60r55 118r42 130r61 150r38
+. 215r45 268r39 270r48 283r44 322r41 332r51 520r42 564r40 596r37 606r38 612r48
+. 619r53 631r31 633r42 640r33 647r33 669r34 674r34 676r42 686r37 688r34
+26P9*Window_view(25R9) 26r76 47|42r35 47r27 191r43
+28U14*Define 28=23 47|596b14 604l8 604t14
+28r23 Self{25R9} 47|596b22 599m20 600m20 601m20 603m20
+29U14*Destroy 29=23 47|606b14 610l8 610t15
+29r23 Self{25R9} 47|606b23 609r22
+31U14*Name_is 31=23 31>45 47|50b14 54l8 54t15
+31r23 Self{25R9} 47|50b23 53m7
+31a45 Now{string} 47|50b45 53r41
+32V14*Name{string} 32>23 47|56b13
+32r23 Self{25R9} 47|56r63
+34U25*Enable<39|462p14> 34=33 47|612b25 617l8 617t14 624s7
+34r33 Self{25R9} 47|612b33 615r23
+36U25*Freshen<39|463p14> 36=34 37>23 38>23 47|603s7 619b25 626l8 626t15
+36r34 Self{25R9} 47|619b34 624m15 625m24 625r24
+37f23 time_Step{39|102F12} 47|620b34 625r37
+38a23 Extras{39|210A9} 47|621b34 625r48
+40V13*is_Closed{boolean} 40>24 47|58b13
+40r24 Self{25R9} 47|58r58
+45U14*Add 45=19 45>41 47|640b14 645l8 645t11
+45r19 Self{25R9} 47|640b19 643m7 643r43 644m7 644r21
+45p41 the_Object{39|209P9} 47|640b41 644r43
+46U14*Rid 46=19 46>41 47|647b14 667l8 667t11
+46r19 Self{25R9} 47|647b19 652r24 654r13 656r24 657m16 657r38 657r64 657r90
+. 660m13 660r34
+46p41 the_Object{39|209P9} 47|647b41 654r35
+48V14*object_Count{natural} 48>28 47|669b13
+48r28 Self{25R9} 47|669r61
+50X4*no_such_Object 47|666r13
+55E9*Smoothing_method 55e55 57r85 58r56 90r26 47|631r46 634r42
+55n30*None{55E9} 47|314r15
+55n36*Software{55E9} 47|297r15
+55n46*Hardware{55E9} 90r46 47|303r15 529r27 581r27
+57V14*Smoothing{55E9} 57>28 47|631b13
+57r28 Self{25R9} 47|631r67
+58U14*Smoothing_is 58=28 58>50 47|633b14 638l8 638t20
+58r28 Self{25R9} 47|633b28 637m7
+58e50 Now{55E9} 47|634b28 637r25
+63V14*Show_Status{boolean} 63>27 47|674b14
+63r27 Self{25R9} 47|674r61
+64U14*Show_Status 64=27 65>27 47|676b14 681l8 681t19
+64r27 Self{25R9} 47|676b27 680m7
+65b27 Show{boolean} 47|677b27 680r27
+67U14*Display_status 67=30 68>30 47|215b14 266l8 266t22 279R10
+67r30 Self{25R9} 47|215b30 237r37 237r56 238r47 241r37 241r56 242r58 254r35
+. 254r53 257r39 257r57 260r10 261r39 261r57
+68f30 sec{39|102F12} 47|216b30 256r10 257r116
+70V13*Frames_per_second{float} 70>32 47|268b13
+70r32 Self{25R9} 47|268r78
+75V13*Keyboard{45|35P9} 75^23 47|686b13
+75p23 Self(25R9) 47|686r81
+76V13*Mouse{45|56P9} 76^23 47|688b13
+76p23 Self(25R9) 47|688r75
+80A9 natural_Array(natural)<integer> 107r23
+84r10 Name{20|79R9} 47|53m12 56r68 486r68 499r56
+85i10 glut_Window{integer} 47|540m12 542r15 609r27 615r28
+87a10 Objects{39|210A9} 47|276r24 437r33 644m12 654r18 657m21 657r69
+88i10 object_Count{natural} 47|276r43 436r36 643m12 643r48 644r26 652r29
+. 656r29 657r43 657r95 660m18 660r39 669r66
+90e10 Smoothing{55E9} 47|295r17 529r15 581r15 631r72 637m12
+91b10 is_Visible{boolean} 47|345r23 517m26
+92b10 is_Closed{boolean} 47|58r63 345r51 507m26
+93b10 Show_Status{boolean} 47|278r15 674r66 680m12
+95i10 main_size_x{28|125I9} 47|133r29 159m12 167r45 237r42 241r42 254r40
+. 257r44 261r44 401r69 537r41
+96i10 main_size_y{28|125I9} 47|133r47 160m12 167r76 237r61 241r61 254r58
+. 257r62 261r62 402r69 537r70
+98b10 foggy{boolean} 47|573r15
+99r10 frontal_light{39|488R9} 47|71m12
+100i10 forget_mouse{natural} 47|194m22 207m32 410r19 413m19 413r44
+101b10 full_screen{boolean} 47|208m32 403r60
+102f10 Alpha{28|128F9} 47|423m19 423r37 426m19 426r37 430r25 431m22 432r25
+. 433m22 437r63
+106i10 last_time{integer} 47|377r48 380m16
+107a10 sample{80A9} 47|383r33 383r62 384m19 384r42 385r67 388m16 388r33 391r61
+108f10 Average{39|102F12} 47|268r83 279r38 381m16 385m19 385r42 390m16 390r36
+. 391m16 391r36
+109b10 new_scene{boolean} 47|373r19 374m19
+111a10 game_command{27|46A8} 47|360r22 399m16 404m60 416r19 422r19 425r19
+. 447r39 457r42 464r19 481r19 498r19
+115r10 Keyboard{45|25R9} 47|407m60 686m90
+116r10 Mouse{45|50R9} 47|408m60 688m84
+120b10 is_capturing_Video{boolean} 47|260r15 482r22 484m22 488m22 492r19
+X 47 glut-windows.adb
+32K12 G3D=32:25 63r22 70r7 74r7 78r7 81r7 85r7 88r7 91r7 94r7 96r7 98r7 99r7
+. 100r7 101r7 102r7 103r7 104r7 152r11 219r11 273r11 276r7 333r51 336r11
+. 336r16 620r53 649r11
+36N4 deg2rad 168r60
+37X4 GLUT_Problem 543r16
+42V13 current_Window{46|26P9} 42b13 48l8 48t22 191s58 207s13 208s13 507s7
+. 517s7
+44V16 to_Window[25|20]{39|460P9} 47s40
+60U14 Prepare_default_lighting 60b14 60=40 61>40 106l8 106t32 571s7
+60r40 Self{46|25R9} 71m7
+61f40 fact{28|126F9} 64r79 65r79 66r79 73r47 76r47 77r47
+63r7 proto_light{39|488R9} 70r22 71r31 73m7 74r22 76m7 77m7 78r22 80m7 81r22
+. 83m7 84m7 85r22 87m7 88r22 90m7 91r22 93m7 94r22
+108U14 Clear_modes 108b14 116l8 116t19 570s7
+118U14 Reset_for_3D 118b14 118=28 128l8 128t20 196s7 579s7
+118c28 Self<46|25R9> 121r28
+130U14 enable_Viewport_and_Perspective 130b14 130=47 148l8 148t39 349s7
+130c47 Self<46|25R9> 133r24 133r42 138r34 139r34 140r34 141r34 143m35 143r35
+. 145m7 145r51
+150U14 set_Size 150b14 150=24 150>53 150>60 184l8 184t16 195s7 535s7
+150c24 Self<46|25R9> 159m7 160m7 162m7 163m7 164m7 165m7 167m7 167r40 167r71
+. 168r41 172m7 172r40 173m7 173r40 173r74 175m7 175r40 176m7 176r40 176r73
+. 178r10 179r39 182m7
+150i53 width{integer} 159r38 164r47
+150i60 height{integer} 160r38 165r47
+155f7 half_fov_max_rads{39|102F12} 168m7 170r40 179m10 182r51
+156f7 Tan_of_half_fov_max_rads{39|102F12} 170m7 172r74 175r73 179r60
+189U14 Window_Resize 189b14 189>29 189>36 197l8 197t21 547r30
+189i29 width{integer} 195r38
+189i36 height{integer} 195r45
+191p7 the_Window{46|26P9} 194r7 195r21 196r21
+199U14 Menu 199b14 199>20 212l8 212t12 213r25
+199i20 value{integer} 202r12
+221a7 light_info{string} 245r16 248m13 250m13 254r86
+245i11 i{integer} 247r32 248r25 248r68 250r25
+270U14 Graphic_display 270b14 270=31 271>31 281l8 281t23 289s10 311s13 315s13
+270c31 Self<46|25R9> 276r19 276r38 276r67 278r10 279m26 279r33
+271a31 Extras{39|210A9} 276r59
+283U14 Fill_screen 283b14 283=27 284>27 320l8 320t19 367s7
+283c27 Self<46|25R9> 289m27 295r12 311m30 315m30
+284a27 Extras{39|210A9} 289r33 311r36 315r36
+286U17 Display_Local 286b17 290l11 290t24 292r59
+292K15 SAA[41|9] 298r13 298r30 299r35 300r16
+299i17 SAA_Phase{integer} 300r48
+322U14 Reset_eye 322b14 322=26 327l8 327t17 465s10 601s7
+322c26 Self<46|25R9> 325m7 326m7
+329V13 Image{string} 329>20 486s82 499s70 691b13 722l8 722t13
+329i20 Date{3|42I9} 691b20 700r30 705r56 706r57 707r55
+332U14 Main_Operations 332b14 332^31 333>31 334>31 502l8 502t23 625s7
+332p31 Self(46|25R9) 345r14 345r42 349r40 360r13 367r20 373r10 374r10 377r39
+. 380r7 381r7 383r24 383r53 384r10 384r33 385r10 385r33 385r58 388r7 388r24
+. 390r7 390r27 391r7 391r27 391r52 399r7 401r60 402r60 403r51 404r51 407r51
+. 408r51 410r10 413r10 413r35 416r10 422r10 423r10 423r28 425r10 426r10 426r28
+. 430r16 431r13 432r16 433r13 436r27 437r24 437r54 446r24 447r30 456r27 457r33
+. 464r10 465r21 468r7 468r60 473r22 474r23 474r66 474r109 476r7 481r10 482r13
+. 484r13 486r59 488r13 492r10 498r10 499r47
+333f31 time_Step{39|102F12} 452r42 462r49
+334a31 Extras{39|210A9} 367r30
+338i7 elaps{integer} 375m10 377m10 388r50 390r52 393r25
+338i14 time_now{integer} 371m7 377r28 380r29
+339f7 gx{28|128F9} 405m51 411m10 448r30 458r33
+339f14 gy{28|128F9} 406m51 412m10 449r30 459r33
+340f7 seconds{28|128F9} 393m7 394r58 423r45 426r45 450r42 460r49
+341b7 alpha_correct{boolean} 420m7 423m54 426m54 429r10
+342f7 attenu_t{39|102F12} 394m7 395r19 461r49
+342f17 attenu_r{39|102F12} 395m7 451r42
+359e11 c{27|14E9} 360r36 361r52
+383i11 i{integer} 384r27 384r50 385r75
+436i14 Each{integer} 437r42
+504U14 Close_Window 504b14 508l8 508t20 546r30
+510U14 Update_Visibility 510b14 510>33 518l8 518t25 548r30
+510i33 State{integer} 517r45 517r73
+520U14 Start_GLUTs 520b14 520=27 562l8 562t19 599s7
+520r27 Self{46|25R9} 529r10 535m17 537r36 537r65 540m7 542r10 549m65 549r65
+524V16 to_Address[25|20]{54|67M9} 549s30
+526m7 GLUT_options{44|24M12} 530m10 530r26 533r24
+564U14 Start_GLs 564b14 564=25 586l8 586t17 600s7
+564r25 Self{46|25R9} 571m33 573r10 579m21 581r10
+566a7 fog_colour{28|153A9} 575m31 575r31
+652i11 Each{integer} 654r27 656r16 657r30 657r78
+695I15 Sec_int{long_integer} 697r15 700r12 708r35 709r35 710r35
+697i7 m{695I15} 701m7 708r50 709r50
+697i10 s{695I15} 700m7 701r12 710r50
+705a10 sY{string} 714r12 714r16 714r31
+706a10 sM{string} 715r12 715r16 715r31
+707a10 sD{string} 716r12 716r16 716r31
+708a10 shr{string} 718r12 718r17 718r33
+709a10 smn{string} 719r12 719r17 719r33
+710a10 ssc{string} 720r12 720r17 720r33
+X 48 glut_2d.ads
+5K9*GLUT_2D 47|17w6 233r7 233r55 234r7 234r55 235r7 235r55 237r7 239r28 241r7
+. 243r28 254r7 254r104 257r10 257r123 261r10 261r90 48|55e12
+15n5*Times_Roman_24{11E8} 47|233r63 234r63 235r63
+16n5*Helvetica_10{11E8} 47|239r36 243r36 254r112 257r131 261r98
+27U13*Text_output 47|237s15 241s15 254s15 257s18 261s18
+36U13*Text_output 47|233s15 234s15 235s15
+X 50 i-c.ads
+35I9*int<integer>
+43M9*unsigned
+64F9*C_float<float>
+65F9*double<long_float>
+X 54 system.ads
+37K9*System 47|44r59 524r79 54|174e11
+67M9*Address 47|44r66 524r86
+X 70 s-memory.ads
+53V13*Alloc{54|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{54|67M9} 105i<c,__gnat_realloc>22
+X 77 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+
